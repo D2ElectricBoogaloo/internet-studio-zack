@@ -1,0 +1,52 @@
+
+html {
+    padding-top: 25px;
+    background-image: dark;
+}
+
+body {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+    background-color: #FAF1DC;
+}
+
+h1 {
+        font-family: "Varela Round", sans-serif;
+        font-weight: normal;
+        color: #00BDD6;
+        font-size: 3em;
+}
+
+h2 {
+    color: #DB002C;
+    font-family: "Varela Round", "Arial Black",
+        sans-serif;
+    font-size: 2.2em;
+    border-bottem: 2px white soild;
+    background: url(images/scream-icon.png)
+        no-repeat 10px 10px;
+    padding: 0 0 2px 60px;
+    margin: 0;
+}
+
+p {
+    font-family: "Palatino Linotype", Baskerville,
+        serif:;
+    font-size: 1.25em;
+    color: #616161;
+    line-height: 150%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.intro {
+    color: #777777;
+    font-family: "Varela Round", Helvetica,
+        sans-serif;
+    font-size: 1.2em;
+    margin-left: 0;
+    margin-bottom: 25px;
+}
