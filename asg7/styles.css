@@ -1,7 +1,7 @@
 
 html {
     padding-top: 25px;
-    background-image: dark;
+    background-image: url(images/sonic_background.jpg);
 }
 
 body {
@@ -49,4 +49,5 @@ p {
     font-size: 1.2em;
     margin-left: 0;
     margin-bottom: 25px;
+
 }
