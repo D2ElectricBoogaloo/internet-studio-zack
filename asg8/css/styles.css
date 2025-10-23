@@ -61,6 +61,7 @@ html {
 	padding: 0 10px;
 	border: 4px soild white;
 	background: transparent url(../images/shodan_body.jpg) no-repeat;
+	background-color: #F26290;
 }
 
 .main h1 {
