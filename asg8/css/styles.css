@@ -14,7 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1.2;
-	background-color: #6711F2;
+	background-color: #0098F5;
 	
 }
 ol { 
@@ -61,7 +61,7 @@ html {
 	padding: 0 10px;
 	border: 4px soild white;
 	background: transparent url(../images/shodan_body.jpg) no-repeat;
-	background-color: #F26290;
+	background-color: #F5F000;
 }
 
 .main h1 {
