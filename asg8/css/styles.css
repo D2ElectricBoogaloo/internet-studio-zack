@@ -14,12 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1.2;
-	width: 80%;
-	padding: 20px;
-	margin: 0 auto;
-	border-radius: 10px;
-	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
-	background-color: #e1edeb;
+	
 }
 ol { 
 	padding-left: 1.4em;
