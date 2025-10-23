@@ -50,7 +50,7 @@ table {
 html {
 	font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 62.5%; /*This equals 10px */
-	background: rgb(225,238,253) url(../images/bg_body.png) repeat-x;
+	background: rgb(225,238,253) url(../images/circuit_texture.jpg) repeat-x;
 }
 
 .main {
