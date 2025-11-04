@@ -13,8 +13,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 body {
-	line-height: 1.2;
-	background-color: orange;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F7E94F;
+	color: #23B4FC;
+	margin: 0;
+	padding: 0;
 }
 ol { 
 	padding-left: 1.4em;
