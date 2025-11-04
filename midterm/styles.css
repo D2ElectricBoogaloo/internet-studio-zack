@@ -72,40 +72,94 @@ header h1 {
 	color: rgb(255,255,255);
 }
 
-nav {
-	margin-left: 200px;	
+/* Navigation */
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	gap: 40px;
+	background-color: #111;
+	padding: 15px 0;
 }
 
-nav li {
-	display: inline;
-}
-
-nav a {
-	display: inline-block;
-	text-decoration: none;
-	font-size: 1.2em;
-	color: #ffffff;
-	padding: 10px 20px;
-	background: #ff932d;
+nav ul li {
+	background-color: #00b4d8;
+	padding: 10px 15px;
 	border-radius: 5px;
-	border: 1px solid #c95e00;
-	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.7);
-	text-shadow:
-		0px -1px 1px rgba(000,000,000,0.2),
-		0px 1px 0px rgba(255,255,255,0.3);
 }
 
-/* your styles here */
-
-nav a {
-	/* transition: all .5s; */
-	transition: transform .5s, background-color
-	1s ease-in .5s;
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
 }
 
-nav a:hover {
-	background-color: red;
-	transform: scale(1.5);
+nav ul li:hover {
+	background-color: #ffcc00;
+	transition: 0.3s;
+}
+
+/* Booking Selection */
+
+.booking {
+	position: relative;
+	text-align: center;
+}
+
+.booking img {
+	width: 50%;
+	height: 50%;
+	opacity: 0.5;
+}
+
+.booking-text {
+	position: absolute;
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%);
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 20px;
+	border-radius: 10px;
+}
+
+/* Buttons */
+.cta {
+	background-color: #ffcc00;
+	border: none;
+	color: #000;
+	padding: 10px 20px;
+	margin: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.cta:hover {
+	background-color: #00b4d8;
+	color: #fff;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	background-color: #111;
+	color: #bbb;
+	padding: 15px;
+	margin-tap: 40px;
+}
+
+/* General Layout */
+section {
+	margin: 40px auto;
+	max-width: 900px;
+}
+
+section img {
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 10px:
 }
 
 @keyframes logo {
