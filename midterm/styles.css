@@ -57,8 +57,8 @@ body {
 }
 
 header {
-	/* background: rgb(255,214,94); */
-	/* background: linear-gradient(to bottom, rgb(100,100,100),rgb(0,0,0)); */
+	background: rgb(255,214,94);
+	background: linear-gradient(to bottom, rgb(100,100,100),rgb(0,0,0));
 	background-image: url(images/link.jpg);
   	padding-top: 20px;
 }
@@ -90,7 +90,7 @@ nav ul {
 	flex-direction: row;
 	gap: 40px;
 	background-image: url(images/sword.png);
-	padding-top: 20px;
+	padding: 5px 0;
 }
 
 nav ul li {
