@@ -59,7 +59,6 @@ body {
 header {
 	background: rgb(255,214,94);
 	background: linear-gradient(to bottom, rgb(100,100,100),rgb(0,0,0));
-	background-image: url(images/link.jpg);
   	padding-top: 20px;
 }
 .container {
@@ -90,6 +89,7 @@ nav ul {
 	flex-direction: row;
 	gap: 40px;
 	background-image: url(images/sword.png);
+	 no-repeat 10px 10px;
 	padding-top: 200px 0;
 }
 
