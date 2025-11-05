@@ -15,7 +15,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 html {
 	padding-top: 25px;
-	background-image:
+	background-image: url(images/zelda-texture.jpg);
 }
 
 body {
