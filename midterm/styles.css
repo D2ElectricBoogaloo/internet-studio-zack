@@ -89,7 +89,7 @@ nav ul {
 	justify-content: center;
 	flex-direction: row;
 	gap: 40px;
-	/* background-color: #111; */
+	background-image: url(images/sword.png);
 	padding: 15px 0;
 }
 
