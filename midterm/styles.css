@@ -57,8 +57,9 @@ body {
 }
 
 header {
-	background: rgb(255,214,94);
-	background: linear-gradient(to bottom, rgb(100,100,100),rgb(0,0,0));
+	/* background: rgb(255,214,94); */
+	/* background: linear-gradient(to bottom, rgb(100,100,100),rgb(0,0,0)); */
+	background-image: url(../images/link.jpg) no-repeat;
   	padding-top: 20px;
 }
 .container {
