@@ -89,7 +89,7 @@ nav ul {
 	justify-content: center;
 	flex-direction: row;
 	gap: 40px;
-	background-color: #111;
+	/* background-color: #111; */
 	padding: 15px 0;
 }
 
