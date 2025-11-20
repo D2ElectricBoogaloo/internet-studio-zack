@@ -92,6 +92,7 @@ h1 {
   padding: 0 20px;
   color: #FFFFFF;
   background-color: #000000;
+  border-radius: 6px;
 }
 
 .gallery {
