@@ -1,0 +1,150 @@
+/* creepster-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Creepster';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/creepster-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* erica-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Erica One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/erica-one-v29-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* baloo-tammudu-2-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baloo Tammudu 2';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/baloo-tammudu-2-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* butcherman-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Butcherman';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/butcherman-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* faster-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Faster One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/faster-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* honk-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Honk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/honk-v6-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-wet-paint-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik Wet Paint';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/rubik-wet-paint-v2-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+body {
+  margin: 0;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7; 
+  background: #f9fafc;
+  background-image: url("images/movie03.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #1a1a1a;
+
+}
+
+h1 {
+  font-family: 'Honk', serif;
+  font-size: 5.8em;
+  text-align: center;
+  margin-top: 30px;
+  color: #E0CD00;
+}
+
+.summary {
+  font-family: 'Erica One', serif;
+  max-width: 850px;
+  margin: 20px auto 50px;
+  text-align: center;
+  font-size: 2.1em;
+  padding: 0 20px;
+  color: #658070;
+  background-color: #000000;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 20px 40px;
+}
+
+.item {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 55px #FF0501;
+    background-color: #FF0501;
+    color: #fff;
+}
+
+.item img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 6px;
+}
+
+h2 {
+  font-family: 'Rubik Wet Paint', serif;
+  font-size: 1.4em;
+  margin: 10px 0;
+  color: #7F2116;
+}
+
+.item p {
+  font-size: 0.95em;
+  font-family: 'Baloo Tammudu 2';
+}
+
+a {
+  font-size: 0.95em;
+  font-family: 'Faster One', serif; 
+}
+
+a:hover {
+  transform: scale(1.05);
+  color: #fff;
+}
+
+
+
+
+
