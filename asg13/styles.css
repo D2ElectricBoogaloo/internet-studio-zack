@@ -25,7 +25,7 @@ body {
     font-family: 'Amiri', sans-serif;
     font-size: 1em; /* Uses scalable type sizing */
     color: #222;
-    background: url("background.jpg") no-repeat center center/cover;
+    background: url("images/tech.jpg") no-repeat center center/cover;
     padding: 0 20px;
 }
 
@@ -97,5 +97,6 @@ p {
     vertical-align: middle;
     margin-right: 8px;
 }
+
 
 
