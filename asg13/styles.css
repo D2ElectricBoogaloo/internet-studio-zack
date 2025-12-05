@@ -22,7 +22,7 @@
 /* Body background and readable font */
 body {
     margin: 0;
-    font-family: "Inter", sans-serif;
+    font-family: 'Amiri', sans-serif;
     font-size: 1em; /* Uses scalable type sizing */
     color: #222;
     background: url("background.jpg") no-repeat center center/cover;
@@ -97,4 +97,5 @@ p {
     vertical-align: middle;
     margin-right: 8px;
 }
+
 
