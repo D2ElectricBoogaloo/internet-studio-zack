@@ -1,0 +1,143 @@
+/* creepster-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Creepster';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/creepster-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* erica-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Erica One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/erica-one-v29-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* baloo-tammudu-2-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baloo Tammudu 2';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/baloo-tammudu-2-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* butcherman-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Butcherman';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/butcherman-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* faster-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Faster One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/faster-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* honk-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Honk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/honk-v6-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-wet-paint-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik Wet Paint';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/rubik-wet-paint-v2-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+/* -------------------------------------------------------
+   Custom Media Player Styles
+-------------------------------------------------------- */
+
+.media-player {
+    width: min(900px, 100%);
+    background: #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-element {
+    width: 100%;
+    display: block;
+}
+
+.controls {
+    padding: 1rem;
+    background: rgba(20,20,20,0.95);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.controls-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Buttons */
+.btn-control {
+    background: #333;
+    border: none;
+    padding: 0.6rem 1rem;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: var(--step--1);
+}
+
+.btn-control:hover {
+    background: #555;
+}
+
+/* Sliders */
+.progress-bar, .volume-bar {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    border-radius: 5px;
+    background: #444;
+    cursor: pointer;
+    flex: 1;
+}
+
+.progress-bar::-webkit-slider-thumb,
+.volume-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: #e50914;
+    border-radius: 50%;
+}
+
+/* Speed Select */
+.speed-select {
+    background: #333;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: none;
+    font-size: var(--step--1);
+}
+
+.label {
+    font-size: var(--step--1);
+}
